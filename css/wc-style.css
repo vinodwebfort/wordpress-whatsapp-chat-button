@@ -1,0 +1,48 @@
+.wf-chat-btn-wrapper {
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+}
+.wf-whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    right: 30px;
+    bottom: 100px;
+    background: #25D366;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    z-index: 3000;
+    border-radius: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    -webkit-animation: at-ripple .6s linear infinite;
+    animation: at-ripple .6s linear infinite
+}
+.wf-whatsapp-btn svg {
+    width: 25px;
+    height: auto;
+}
+.wf-whatsapp-btn:hover {
+    color: #fff!important;
+}
+@-webkit-keyframes at-ripple {
+    0% {
+        box-shadow: 0 4px 10px rgba(37, 211, 102, 0.1), 0 0 0 0 rgba(37, 211, 102, 0.1), 0 0 0 5px rgba(37, 211, 102, 0.1), 0 0 0 10px rgba(37, 211, 102, 0.1)
+    }
+    100% {
+        box-shadow: 0 4px 10px rgba(37, 211, 102, 0.1), 0 0 0 5px rgba(37, 211, 102, 0.1), 0 0 0 10px rgba(37, 211, 102, 0.1), 0 0 0 20px rgba(37, 211, 102, 0)
+    }
+}
+@keyframes at-ripple {
+    0% {
+        box-shadow: 0 4px 10px rgba(37, 211, 102, 0.1), 0 0 0 0 rgba(37, 211, 102, 0.1), 0 0 0 5px rgba(37, 211, 102, 0.1), 0 0 0 10px rgba(37, 211, 102, 0.1)
+    }
+    100% {
+        box-shadow: 0 4px 10px rgba(37, 211, 102, 0.1), 0 0 0 5px rgba(37, 211, 102, 0.1), 0 0 0 10px rgba(37, 211, 102, 0.1), 0 0 0 20px rgba(37, 211, 102, 0)
+    }
+}
